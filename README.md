@@ -24,3 +24,5 @@ INSTALLATION
 This is the ~/.vim directory (though you could symlink to it if you wanted)
 Then symlink ~/.vimrc to the vimrc file included
 
+SCREENSHOT
+![Screenshot of GVIM](https://github.com/perllaghu/vimrc/blob/master/images/screenshot_1.jpg)
