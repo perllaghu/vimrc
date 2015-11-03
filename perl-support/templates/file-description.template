@@ -31,7 +31,7 @@ use Carp qw[ carp croak ];
 
 §%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == comment.file-description-pm == start ==
-package <CURSOR>;
+package |?PACKAGENAME|;
 
 use strict;
 use warnings;
@@ -47,6 +47,8 @@ use version; our $VERSION = qv('1.0_3'); # From Perl Best Practice
 
 =head1 NAME
 
+  |PACKAGENAME|
+
 =head1 VERSION
 
 Version 1.0 Alpha 3
@@ -59,7 +61,14 @@ Version 1.0 Alpha 3
 
 =cut
 
-###########
+sub new {
+  my ($class) = @_;
+
+  my $data = {};
+  bless($data, $class);
+<CURSOR>
+  return $data
+}
 
 1;
 
