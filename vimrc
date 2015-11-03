@@ -10,6 +10,7 @@ set smartindent
 set showmatch
 set matchtime=1
 set laststatus=2
+set exrc
 nnoremap <silent> <Enter> :nohl<Enter>
 set pastetoggle=<f11>
 set iskeyword+=:
