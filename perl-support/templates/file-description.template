@@ -22,30 +22,66 @@
 
 use strict;
 use warnings;
+use utf8;
+use English qw( -no_match_vars ) ;  # Avoids regex performance
+                                    # penalty in perl 5.16 and
+                                    # earlier
+use Carp qw[ carp croak ];
 
 
 §%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == comment.file-description-pm == start ==
-#
-#===============================================================================
-#
-#         FILE:  |FILENAME|
-#
-#  DESCRIPTION:  <CURSOR>
-#
-#        FILES:  ---
-#         BUGS:  ---
-#        NOTES:  ---
-#       AUTHOR:  |AUTHOR| (|AUTHORREF|), |EMAIL|
-#      COMPANY:  |COMPANY|
-#      VERSION:  1.0
-#      CREATED:  |DATE| |TIME|
-#     REVISION:  ---
-#===============================================================================
+package <CURSOR>;
 
 use strict;
 use warnings;
+use utf8;
+use Carp qw[ carp croak ];
 
+# Avoids regex performance penalty in perl 5.16 and earlier
+use English qw( -no_match_vars ) ; 
+
+use version; our $VERSION = qv('1.0_3'); # From Perl Best Practice
+
+=pod
+
+=head1 NAME
+
+=head1 VERSION
+
+Version 1.0 Alpha 3
+
+=head1 SYNOPSIS
+
+=head1 DESCRIPTION
+
+=head1 SUBROUTINES/METHODS
+
+=cut
+
+###########
+
+1;
+
+=pod
+
+=head1 CONFIGURATION AND ENVIRONMENT
+
+=head1 BUGS
+
+=head1 RESTRICTIONS
+
+=head1 SEE ALSO
+
+=head1 AUTHOR
+
+|AUTHOR| <|EMAIL|>
+
+=head1 LICENSE AND COPYRIGHT
+
+Copyright is held by EDINA, dated |YEAR| 
+
+=cut
 
 §%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == comment.file-description-t == start ==
@@ -68,6 +104,11 @@ use warnings;
 
 use strict;
 use warnings;
+use utf8;
+use English qw( -no_match_vars ) ;  # Avoids regex performance
+                                    # penalty in perl 5.16 and
+                                    # earlier
+use Carp qw[ carp croak ];
 
 use Test::More tests => 1;                      # last test to print
 
