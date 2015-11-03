@@ -5,8 +5,8 @@ This is the .vim directory I copy everywhere.
 It currently includes:
 
 * perlsupport (http://www.vim.org/scripts/script.php?script_id=556)
-* vim-airline (https://github.com/bling/vim-airline)
-* vim-fugitive (https://github.com/tpope/vim-fugitive)
+* vim-airline (https://github.com/bling/vim-airline) to provide a good status bar
+* vim-fugitive (https://github.com/tpope/vim-fugitive) to provide interaction with Git
 * vim-easytags (https://github.com/xolox/vim-easytags)
 
 Note that perlsupport requires the following CPAN modules:
