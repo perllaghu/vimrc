@@ -33,6 +33,21 @@ Then symlink ~/.vimrc to the vimrc file included
 
 ## USEFUL COMMANDS
 
+### Git
+
+The basics:
+
+* `:Gstatus`
+* `:Gdiff`
+* `:Gadd`
+* `:Gcommit`
+
+Then:
+
+* `:Gedit` (`:Gsplit`) edits a file already being tracked
+* `:Gread` checks-out the file from the repo before you edit it (so reverts it)
+* `:Gwrite` Writes the file to the _staging_ list
+
 ### Code Folding
 
 Code Folding is on curly braces `{` & `}` - folding within a block will fold that whole block.
